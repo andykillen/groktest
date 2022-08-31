@@ -1,3 +1,6 @@
 name = "groktest"
 main = "src/index.js"
 compatibility_date = "2022-08-31"
+routes = [
+	{ pattern = "sub.grok.codes", custom_domain = true }
+]
