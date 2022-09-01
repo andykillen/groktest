@@ -6,16 +6,7 @@ on:
     branches:
       - main
 
-jobs:
-  job1:
-    ## The type of runner that the job will run on, 
-    ## here it runs on ubuntu latest
-    runs-on: ubuntu-latest 
-    steps:
-      - name: step 1
-        ## Reference your environment variables
-        run: echo "The secret email is key is:${{secrets.CF_EMAIL}} the apiKey is:${{secrets.CF_API_TOKEN}}"   
-
+jobs:  
   deploy:
     runs-on: ubuntu-latest
     name: Deploy
