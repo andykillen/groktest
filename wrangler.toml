@@ -2,6 +2,6 @@ name = "groktest"
 main = "src/index.js"
 compatibility_date = "2022-08-31"
 routes = [
-	{ pattern = "sub.grok.codes", custom_domain = true, zone_id = "7ff6b2c663d2cba22727df2361781852" }
+	{ pattern = "sub.grok.codes", custom_domain = true }
 ]
 account_id = "ff3ad9d6f937cab949e5d8efbbf5cf24"
